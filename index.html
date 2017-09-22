@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  
+  <title>The Office | Trivia Game</title>
+
+</head>
+<body>
+
+	<header>
+		<img src='assets/images/theOffice-logo.png' alt='headerImg'>
+	</header>
+
+	<div class='container'>
+
+        <button class='btn btn-primary' id='startBtn'>
+          Let's Get Started! <br>
+          (That's what she said)
+        </button>
+
+        <!-- Questions -->
+        <div id=timeLeft></div>
+        <div id=currentQuestion></div>
+        <div class=question></div>
+        <div class=answerList></div>
+
+        <!-- Answers -->
+        <div id=message></div>
+        <div id=correctedAnswer></div>
+        <div id=gif></div>
+
+        <!-- Scoreboard -->
+        <div id=finalMessage></div>
+        <div id=correctAnswers></div>
+        <div id=incorrectAnswers></div>
+        <div id=unanswered></div>
+        <div id=startOverBtn></div>
+
+    </div>
+
+    <!-- Background Music -->
+    <audio autoplay loop>
+
+        <source src="assets/music/theOffice.mp3" 
+        controls = false
+        type="audio/mpeg">
+
+    </audio>
+    
+    <script src="https://code.jquery.com/jquery.js">
+    </script>
+    <script type="text/javascript" src="assets/javascript/style.js"></script>
+
+</body>
+</html>

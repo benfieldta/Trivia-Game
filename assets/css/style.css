@@ -1,0 +1,61 @@
+body{
+	background: url('../images/textured_paper.png');
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	margin: auto;
+}
+
+header{
+	max-height: 350px;
+	display: block;
+	margin: auto;
+	width: 75%;
+	background: url('https://www.biography.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cq_80%2Cw_1280/MTI4OTk1MTI0NTQwNjQyNTc4/the-office_keyart_70jpg.jpg') 100%;
+	margin-bottom: 20px;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 300px;
+}
+
+.btn-primary,.reset{
+	background-color: #5AC8F1;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	padding: 20px;
+	margin-top: 100px;
+}
+
+.btn-primary:hover, .reset:hover{
+	background-color: #5AC8F1;
+}
+
+.container{
+	display: block;
+	margin-top: 50px;
+	margin: auto;
+	text-align: center;
+	height: 100%;
+	width: 700px;
+}
+
+.thisChoice:hover{
+	background-color: #5AC8F1;
+	color: white;
+	padding: 10px;
+}
+
+#gif{
+	margin: 30px;
+}
+
+@media screen and (max-width:640px){
+	.container{
+		width: 500px;
+		margin-top: 200px;
+		size: 200%;
+	}	
+}
